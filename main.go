@@ -4,6 +4,8 @@ import (
 	"net/http"
 	"os"
 
+	_ "github.com/mattn/go-sqlite3"
+
 	"bitbucket.org/iandkenzt/inventories/restapi"
 	"bitbucket.org/iandkenzt/inventories/utils"
 	"github.com/gorilla/handlers"
