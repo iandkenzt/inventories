@@ -11,4 +11,7 @@ func BuildAppInventoryRoutes(r *mux.Router) {
 	// products
 	r.Methods("GET").Path("/product").HandlerFunc(rest.AppSecretKeyMiddleware(GetReportProducts))
 	r.Methods("PUT").Path("/product/insert").HandlerFunc(rest.AppSecretKeyMiddleware(StoreStockProduct))
+
+	r.Methods("POST").Path("/inventory/in").HandlerFunc(rest.AppSecretKeyMiddleware(StoreInventoryIn))
+
 }
