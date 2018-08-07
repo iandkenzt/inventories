@@ -1,0 +1,15 @@
+package appreport
+
+import (
+	rest "bitbucket.org/iandkenzt/inventory/restapi"
+
+	"github.com/gorilla/mux"
+)
+
+// BuildAppReportsRoutes ...
+func BuildAppReportsRoutes(r *mux.Router) {
+
+	r.Methods("GET").Path("/report/products").HandlerFunc(rest.AppSecretKeyMiddleware(CsvReportProducts))
+	r.Methods("GET").Path("/report/product_values").HandlerFunc(rest.AppSecretKeyMiddleware(CsvReportProductValues))
+
+}
