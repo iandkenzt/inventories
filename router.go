@@ -2,6 +2,7 @@ package main
 
 import (
 	"bitbucket.org/iandkenzt/inventories/appinventory"
+	"bitbucket.org/iandkenzt/inventories/appreport"
 	"bitbucket.org/iandkenzt/inventories/appservice"
 	"bitbucket.org/iandkenzt/inventories/restapi"
 	"github.com/gorilla/mux"
@@ -19,6 +20,7 @@ func RestAPIRouter() *mux.Router {
 	// registration blueprint route of API Apps
 	appservice.BuildAppServiceRoutes(restAPIRouter)
 	appinventory.BuildAppInventoryRoutes(restAPIRouter)
+	appreport.BuildAppReportsRoutes(restAPIRouter)
 
 	return router
 
