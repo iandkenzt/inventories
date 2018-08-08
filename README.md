@@ -2,6 +2,10 @@
 
 RestAPI service for inventory activity
 
+## How Install Dependencies using `dep`
+
+> `dep ensure`
+
 ## How to run With Native Go
 
 * Run Package
