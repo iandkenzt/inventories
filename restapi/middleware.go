@@ -3,7 +3,7 @@ package restapi
 import (
 	"net/http"
 
-	"bitbucket.org/iandkenzt/inventories/utils"
+	"github.com/iandkenzt/inventories/utils"
 )
 
 // AppSecretKeyMiddleware authenticate request using application secret key

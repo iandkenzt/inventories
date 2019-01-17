@@ -1,11 +1,11 @@
 package main
 
 import (
-	"bitbucket.org/iandkenzt/inventories/appinventory"
-	"bitbucket.org/iandkenzt/inventories/appreport"
-	"bitbucket.org/iandkenzt/inventories/appservice"
-	"bitbucket.org/iandkenzt/inventories/restapi"
 	"github.com/gorilla/mux"
+	"github.com/iandkenzt/inventories/appinventory"
+	"github.com/iandkenzt/inventories/appreport"
+	"github.com/iandkenzt/inventories/appservice"
+	"github.com/iandkenzt/inventories/restapi"
 )
 
 // RestAPIRouter ...

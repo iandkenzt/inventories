@@ -6,9 +6,9 @@ import (
 
 	_ "github.com/mattn/go-sqlite3"
 
-	"bitbucket.org/iandkenzt/inventories/restapi"
-	"bitbucket.org/iandkenzt/inventories/utils"
 	"github.com/gorilla/handlers"
+	"github.com/iandkenzt/inventories/restapi"
+	"github.com/iandkenzt/inventories/utils"
 )
 
 func init() {

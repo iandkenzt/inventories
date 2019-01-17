@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"time"
 
-	rest "bitbucket.org/iandkenzt/inventories/restapi"
-	"bitbucket.org/iandkenzt/inventories/utils"
 	humanize "github.com/dustin/go-humanize"
+	rest "github.com/iandkenzt/inventories/restapi"
+	"github.com/iandkenzt/inventories/utils"
 )
 
 // CsvReportProductValues ...

@@ -1,6 +1,6 @@
 package appinventory
 
-import rest "bitbucket.org/iandkenzt/inventories/restapi"
+import rest "github.com/iandkenzt/inventories/restapi"
 
 // Conf Var
 var Conf = rest.Conf

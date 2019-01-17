@@ -1,7 +1,7 @@
 package appreport
 
 import (
-	rest "bitbucket.org/iandkenzt/inventory/restapi"
+	rest "github.com/iandkenzt/inventories/restapi"
 
 	"github.com/gorilla/mux"
 )

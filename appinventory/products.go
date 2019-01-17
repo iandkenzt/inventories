@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"bitbucket.org/iandkenzt/inventories/utils"
+	"github.com/iandkenzt/inventories/utils"
 )
 
 // StoreStockProduct ...

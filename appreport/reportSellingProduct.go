@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"time"
 
-	rest "bitbucket.org/iandkenzt/inventories/restapi"
-	"bitbucket.org/iandkenzt/inventories/utils"
+	rest "github.com/iandkenzt/inventories/restapi"
+	"github.com/iandkenzt/inventories/utils"
 )
 
 // CsvReportSellingProduct ...

@@ -1,7 +1,7 @@
 package appinventory
 
 import (
-	rest "bitbucket.org/iandkenzt/inventories/restapi"
+	rest "github.com/iandkenzt/inventories/restapi"
 
 	"github.com/gorilla/mux"
 )

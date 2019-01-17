@@ -3,7 +3,7 @@ package appservice
 import (
 	"net/http"
 
-	"bitbucket.org/iandkenzt/inventories/utils"
+	"github.com/iandkenzt/inventories/utils"
 )
 
 // Alive Struct

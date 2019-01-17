@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"bitbucket.org/iandkenzt/inventories/utils"
+	"github.com/iandkenzt/inventories/utils"
 )
 
 // StoreInventoryIn ...

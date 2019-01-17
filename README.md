@@ -23,16 +23,6 @@ curl --request GET \
 Response: {"error":0,"message":"Success","data":{"is_alive":true}}
 ```
 
-### Check service Rest API
-```
-curl --request GET \
-  --url http://localhost:3000/api/v1/is_alive \
-  -H 'X-Api-Key: 99saf8le-s7td-408c-K2iN-a3fv69encTry'
-```
-```
-Response: {"error":0,"message":"Success","data":{"is_alive":true}}
-```
-
 ### Get data product
 ```
 curl --request GET \
